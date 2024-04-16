@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorized Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <span class="brand">Image Colorization</span>
+        </div>
+    </nav>
+    <div class="_container">
+        <h1>Colorized Image</h1>
+        <div class="image-container">
+            <img src="{{ url_for('static', filename=original_image) }}" alt="Original Image" class="original-image">
+            <img src="{{ url_for('static', filename=colorized_image) }}" alt="Colorized Image" class="colorized-image">
+        </div>
+    </div>
+</body>
+</html>

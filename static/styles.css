@@ -1,0 +1,180 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #060000;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    padding: 20px 0; /* Increased height of the navbar */
+}
+
+.container {
+    margin: 20px auto; /* Added margin between navbar and container */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px; /* Decreased width of the container */
+    margin-top: 100px;
+    height:350px;
+}
+
+._container {
+    margin: 20px auto; /* Added margin between navbar and container */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px; /* Decreased width of the container */
+    margin-top: 100px;
+    height:350px;
+}
+
+.container_ {
+    margin: 20px auto; /* Added margin between navbar and container */
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 100px; /* Adjusted border radius for trapezium shape */
+    border-bottom-right-radius: 100px; /* Adjusted border radius for trapezium shape */
+    border-top-left-radius: 20px; /* Adjusted border radius for trapezium shape */
+    border-top-right-radius: 20px; /* Adjusted border radius for trapezium shape */
+    transform: skew(-10deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 480px; /* Decreased width of the container */
+    background: radial-gradient(circle, #ffffff, #d9d9d9);
+    margin-top: 100px;
+    height:300px;
+}
+
+.brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 20px; /* Added space to the left of the brand */
+}
+
+.btn {
+    display: block; /* Added display property */
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    width:100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+    margin-left: 230px;
+
+}
+
+.btn_ {
+    display: block; /* Added display property */
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    width:100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+    margin-left: 190px;
+
+}
+
+
+.upload-container{
+    margin-top:50px;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+.btn_:hover {
+    background-color: #45a049;
+}
+
+h1, h2 {
+    color: #333333;
+}
+
+ol {
+    text-align: left;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Transition effect for container */
+.container {
+    transition: transform 0.3s ease;
+}
+
+/* Zoom in effect */
+.container:hover {
+    transform: scale(1.05);
+}
+
+.container_ {
+    transition: transform 2s ease;
+}
+
+._container {
+    transition: transform 0.3s ease;
+}
+
+/* Zoom in effect */
+._container:hover {
+    transform: scale(1.5);
+}
+
+/* Zoom in effect */
+.container_:hover {
+    transform: scale(1.05);
+    border-radius: 50%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label.upload-label {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+label.upload-label:hover {
+    background-color: #45a049;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.original-image,
+.colorized-image {
+    margin: 0 10px; 
+    max-width: 50%; 
+    height: 200px;
+}
