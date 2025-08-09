@@ -1,3 +1,7 @@
+Here's a well-structured README.md content for your **Image Colorization App**, including reference to your example input/output images from `uploads/test_image.jpg` and `uploads/output.jpg`.
+
+---
+
 # Image Colorization App
 
 ## 📌 Overview
@@ -19,11 +23,11 @@ The backend uses **PyTorch** with a custom-trained model (based on FastAI and im
 
 ## 🛠 Tech Stack
 
-### **Frontend**
+### Frontend
 
 * HTML5, CSS3, JavaScript
-  
-### **Backend**
+
+### Backend
 
 * Python 3
 * Flask (Web Framework)
@@ -40,10 +44,11 @@ project/
 │── static/                  # CSS, JS, and static image files
 │── templates/               # HTML templates (Flask Jinja2)
 │── uploads/                 # Uploaded images
-│── app.py                    # Flask application entry point
-│── infer.py     # Model loading & prediction
+│── results/                 # Colorized output images
+│── app.py                  # Flask application entry point
+│── infer.py                # Model loading & prediction
 │── utils/Image_Colorization.ipynb  # Notebook with model training
-│── README.md                 # Project documentation
+│── README.md               # Project documentation
 ```
 
 ---
@@ -75,6 +80,8 @@ python app.py
 
 ### 4️⃣ Open the app in your browser
 
+Navigate to:
+
 ```
 http://127.0.0.1:5000
 ```
@@ -83,16 +90,17 @@ http://127.0.0.1:5000
 
 ## 🖼 How It Works
 
-1. User uploads a grayscale image.
-2. Flask saves the uploaded image to `uploads/`.
-3. Backend model processes the image using **PyTorch & FastAI**.
-4. Colorized image is saved in `results/` and displayed on the frontend.
+1. User uploads a grayscale image via the web interface.
+2. Flask saves the uploaded image to the `uploads/` directory.
+3. The backend model processes the image using **PyTorch & FastAI** to generate a colorized version.
+4. The colorized image is saved in the `results/` directory.
+5. The frontend displays the original and colorized images side-by-side for comparison.
 
 ---
 
 ## 📦 Requirements
 
-Create a `requirements.txt` with:
+Make sure to have a `requirements.txt` file with:
 
 ```
 flask
@@ -107,3 +115,31 @@ tqdm
 ```
 
 ---
+
+## 📷 Sample Input and Output
+
+Here are example images showing the input grayscale image and the colorized output:
+
+| Original Grayscale Image                   | Colorized Output                       |
+| ------------------------------------------ | -------------------------------------- |
+| ![Grayscale Image](uploads/test_image.jpg) | ![Colorized Image](uploads/output.jpg) |
+
+---
+
+## 🙌 Contributions
+
+Feel free to open issues or submit pull requests for improvements or bug fixes.
+
+---
+
+## 📞 Contact
+
+For any questions or collaboration, reach out to:
+
+**Harish R**
+Email: [harish@example.com](mailto:harish@example.com)
+GitHub: [harish-123445](https://github.com/harish-123445)
+
+---
+
+Let me know if you want me to generate the actual `requirements.txt` file or anything else!
