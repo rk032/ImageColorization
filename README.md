@@ -124,22 +124,3 @@ Here are example images showing the input grayscale image and the colorized outp
 | ------------------------------------------ | -------------------------------------- |
 | ![Grayscale Image](uploads/test_image.jpg) | ![Colorized Image](uploads/output.jpg) |
 
----
-
-## 🙌 Contributions
-
-Feel free to open issues or submit pull requests for improvements or bug fixes.
-
----
-
-## 📞 Contact
-
-For any questions or collaboration, reach out to:
-
-**Harish R**
-Email: [harish@example.com](mailto:harish@example.com)
-GitHub: [harish-123445](https://github.com/harish-123445)
-
----
-
-Let me know if you want me to generate the actual `requirements.txt` file or anything else!
